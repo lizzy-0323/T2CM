@@ -118,16 +118,16 @@ For more advanded models and parameters, see [other example configurations](http
 ### Step 3:Change the yaml file to run T2CM
 To run T2CM model, you should use the following standard configure,and change the parameters to get a better score on valid set.
 
-<data configuration>
+
 ...
 
-# General opts
+#### General opts
 save_model: foo
 save_checkpoint_steps: 10000
 valid_steps: 10000
 train_steps: 200000
 
-# Batching
+#### Batching
 queue_size: 10000
 bucket_size: 32768
 world_size: 4
@@ -139,7 +139,7 @@ max_generator_batches: 2
 accum_count: [4]
 accum_steps: [0]
 
-# Optimization
+#### Optimization
 model_dtype: "fp32"
 optim: "adam"
 learning_rate: 2
@@ -152,7 +152,7 @@ param_init: 0
 param_init_glorot: true
 normalization: "tokens"
 
-# Model
+#### Model
 encoder_type: transformer
 decoder_type: transformer
 position_encoding: true
