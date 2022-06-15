@@ -118,7 +118,7 @@ For more advanded models and parameters, see [other example configurations](http
 ### Step 3:Change the yaml file to run T2CM
 To run T2CM model, you should use the following standard configure,and change the parameters to get a better score on valid set.
 
-
+```yaml
 ...
 
 #### General opts
@@ -165,7 +165,7 @@ transformer_ff: 2048
 dropout_steps: [0]
 dropout: [0.1]
 attention_dropout: [0.1]
-  
+ ``` 
 Here are what the most important parameters mean:
 
 * `param_init_glorot` & `param_init 0`: correct initialization of parameters;
