@@ -4,7 +4,6 @@
 Oda Y, Fudaba H, Neubig G, et al. Learning to generate pseudo-code from source code using statistical machine translation. 2015 30th IEEE/ACM International Conference on Automated Software Engineering (ASE).015;574-584.doi:10.1109/ASE.2015.36.
 ### Python library dependencies:
 OpenNMT-py
----
 
 
 
