@@ -8,7 +8,7 @@ OpenNMT-py,python=3.6
 
 ### Code
 
-#### Step 0: Install OpenNMT-py
+#### Install OpenNMT-py
 
 ```bash
 pip install --upgrade pip
